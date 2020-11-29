@@ -95,7 +95,8 @@ a {
 
 .rightcontent {
   overflow: auto;
-  padding: 120px;
+  /* padding: 120px; */
+  padding: 100px 120px 50px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -174,6 +175,19 @@ a {
 	font-family: 'Kalpurush', sans-serif !important;
 }
 
+.logo {
+  margin-left: -14px;
+  margin-bottom: 25px;
+}
+
+.logo img {
+  width: 240px;
+}
+
+.sticker {
+  margin-left: -25px !important;
+}
+
 .contact {
   font-size: 1.5rem;
   color: white !important;
@@ -191,8 +205,8 @@ a {
   }
 
   .rightcontent {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 80px;
+    padding-bottom: 60px;
   }
 
   .links {
@@ -245,7 +259,6 @@ a {
   }
 
   .credit {
-    margin-top: 25%;
     font-size: 12px;
   }
 
