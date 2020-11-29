@@ -184,6 +184,10 @@ a {
   width: 240px;
 }
 
+.details {
+  padding-left: 3px;
+}
+
 .sticker {
   margin-left: -25px !important;
 }
