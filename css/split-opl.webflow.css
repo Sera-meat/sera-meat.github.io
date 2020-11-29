@@ -1,5 +1,6 @@
 a {
-  color: #848d96;
+  /* color: #848d96; */
+  color: white;
   text-decoration: none;
 }
 
@@ -7,8 +8,9 @@ a {
   display: block;
   overflow: scroll;
   max-height: 100vh;
-  background-color: #0b1c2f;
-  font-family: Inter, sans-serif;
+  /* background-color: #0b1c2f; */
+  background-color: #e00101;
+  font-family: 'Play', sans-serif !important;
 }
 
 .leftcontent {
@@ -37,11 +39,12 @@ a {
 
 .name {
   margin-bottom: 40px;
-  color: #47bec7;
+  /* color: #47bec7; */
+  color: white;
   font-size: 16px;
-  line-height: 100%;
+  /* line-height: 100%;
   letter-spacing: 1px;
-  text-transform: uppercase;
+  text-transform: uppercase; */
 }
 
 .bold-text {
@@ -50,22 +53,25 @@ a {
 
 .tagline {
   margin-bottom: 40px;
-  color: #ddd;
+  /* color: #ddd; */
+  color: white;
   font-size: 58px;
   line-height: 100%;
 }
 
 .bio {
   margin-bottom: 40px;
-  font-family: Lora, sans-serif;
-  color: #848d96;
+  font-family: 'Play', sans-serif !important;
+  /* color: #848d96; */
+  color: white;
   font-size: 21px;
   line-height: 140%;
 }
 
 .text-block-2 {
   margin-bottom: 20px;
-  color: #485462;
+  /* color: #485462; */
+  color: white;
   font-size: 12px;
   line-height: 12px;
   letter-spacing: 2px;
@@ -73,14 +79,17 @@ a {
 }
 
 .list {
-  font-family: Lora, sans-serif;
-  color: #848d96;
+  font-family: 'Play', sans-serif !important;
+  /* color: #848d96; */
+  color: white;
   font-size: 16px;
   line-height: 160%;
 }
 
 .credit {
-  color: #485462;
+  /* color: #485462; */
+  color: white;
+  margin-top: 25%;
   font-size: 13px;
 }
 
@@ -136,7 +145,8 @@ a {
 }
 
 .credit-links {
-  color: #485462;
+  /* color: #485462; */
+  color: white;
 }
 
 .image {
@@ -153,11 +163,20 @@ a {
   -webkit-flex: 0 auto;
   -ms-flex: 0 auto;
   flex: 0 auto;
-  background-image: url('../images/split.jpg');
+  background-image: url('../images/front-split-image.png');
   background-position: 50% 50%;
   background-size: cover;
   -o-object-fit: cover;
   object-fit: cover;
+}
+
+.bangla {
+	font-family: 'Kalpurush', sans-serif !important;
+}
+
+.contact {
+  font-size: 1.5rem;
+  color: white !important;
 }
 
 @media screen and (max-width: 991px) {
@@ -226,6 +245,7 @@ a {
   }
 
   .credit {
+    margin-top: 25%;
     font-size: 12px;
   }
 
@@ -238,4 +258,3 @@ a {
     max-height: 30vh;
   }
 }
-
